@@ -3,7 +3,7 @@ body{
     font-family: tahoma;
     color: #989898;
 }
-
+//to do table
 #todo-table{
     position: relative;
     width: 95%;
@@ -12,7 +12,7 @@ body{
     padding: 20px;
     box-sizing: border-box;
 }
-
+//to do after
 #todo-table form:after{
     margin: 0;
     content: '';
@@ -41,7 +41,7 @@ button{
     cursor: pointer;
     font-size: 20px;
 }
-
+//un order list
 ul{
     list-style-type: none;
     padding: 0;
