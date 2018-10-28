@@ -1,7 +1,7 @@
 var bodyParser=require('body-parser');
 var mongoose=require('mongoose');
 
-//Connect to the db
+//Connect to the database (mongoDB)
 
 mongoose.connect('mongodb://pavan:pavan123@ds111422.mlab.com:11422/todo');
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
